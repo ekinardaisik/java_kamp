@@ -1,0 +1,2 @@
+module miniodev5sayibul {
+}

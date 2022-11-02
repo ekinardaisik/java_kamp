@@ -1,0 +1,29 @@
+package multiDimensionalArray;
+
+public class multiDemonsionalArray {
+
+	public static void main(String[] args) {
+		String[][] sehirler = new String[3][3];
+		
+		sehirler[0][0] = "istanbul";
+		sehirler[0][1] = "bilecik";
+		sehirler[0][2] = "bursa";
+		sehirler[1][0] = "ankara";
+		sehirler[1][1] = "konya";
+		sehirler[1][2] = "kayseri";
+		sehirler[2][0] = "diyarbakır";
+		sehirler[2][1] = "mardin";
+		sehirler[2][2] = "urfa";
+		
+		for(int i = 0;i<=2;i++) {
+			System.out.println("---------------------");
+			for(int j=0;j<=1;j++) {
+				System.out.println(sehirler[i][j]);
+			}
+			
+		}
+		
+	
+	}
+
+}

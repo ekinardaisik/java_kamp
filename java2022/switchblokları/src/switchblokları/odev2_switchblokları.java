@@ -1,0 +1,32 @@
+package switchblokları;
+
+public class odev2_switchblokları {
+
+	public static void main(String[] args) {
+		char grade = 'A';
+
+		switch (grade) {
+		case 'A':
+			System.out.println("mükemmel");
+			break;
+
+		case 'B':
+			System.out.println("çok iyi");
+			break;
+
+		case 'C':
+			System.err.println("iyi");
+			break;
+
+		case 'D':
+			System.out.println("orta");
+			break;
+		case 'F':
+			System.out.println("kaldınız");
+			break;
+		default:
+			System.out.println("geçersiz not");
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package miniodev5sayibu;
+
+public class sayibul {
+
+	public static void main(String[] args) {
+		int[] sayılar = new int[] {1,2,3,4,7,6};
+		int aranacak = 5;
+		boolean varMi=false;
+		
+		for(int sayi : sayılar) {
+			if(sayi==aranacak) {
+				varMi = true;
+				break;
+			}
+		}
+		if(varMi) {
+			System.out.println("sayı mevcut");
+			
+		}else {
+			System.out.println("sayı mevcut değil");
+		}
+
+	}
+
+}

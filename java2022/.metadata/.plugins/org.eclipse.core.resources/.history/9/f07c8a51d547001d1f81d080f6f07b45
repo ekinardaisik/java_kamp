@@ -1,0 +1,20 @@
+package miniodevsil;
+
+public class miniodevsil {
+
+	public static void main(String[] args) {
+		char harf = 'A' ;
+		
+		char[] kalınharfler = {'A','O','I','U'};
+           
+		if(harf == kalınharfler[0]) {
+			System.out.println("kalın harf");
+			
+		}
+		else {
+			System.out.println("ince harfler");
+		}
+
+	}
+
+}

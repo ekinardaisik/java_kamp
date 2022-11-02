@@ -1,0 +1,18 @@
+package intro;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("hello world");
+		//değişken isimleri java da camelCase yazılır
+		//yaniilk kelime küçük ile başlar ikincisi büyük
+		String ortaMetin ="ortadaki metinler";
+		String altMetin = "alttaki metinleeer";
+		
+		System.out.println(altMetin);
+		
+
+	}
+
+}

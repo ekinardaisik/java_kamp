@@ -1,0 +1,9 @@
+package intro;
+
+public class vide6_degiskenler {
+	int ogrenciSayisi = 12;
+	   String mesaj ="öğrenci sayısı: ";
+	   System.out.println(mesaj + ogrenciSayisi);
+	   System.out.println("Öğrenci sayısı : " + ogrenciSayisi);
+	   
+}
